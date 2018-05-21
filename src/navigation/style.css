@@ -1,0 +1,9 @@
+navigation {
+
+    background: var(--primary);
+
+    a {
+        display: inline-block;
+        padding: var(--sm) var(--xs);
+    }
+}

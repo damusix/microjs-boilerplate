@@ -1,0 +1,63 @@
+{
+  "name": "microjs-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate of small frontend tools for buildings sites or apps",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config config/webpack.prod.js",
+    "start": "webpack-dev-server --open --config config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damusix/microjs-boilerplate.git"
+  },
+  "keywords": [
+    "microjs",
+    "minimal",
+    "riot",
+    "axios",
+    "dayjs",
+    "navigo",
+    "boilerplate",
+    "webpack",
+    "postcss",
+    "cssnext",
+    "css4"
+  ],
+  "author": "Danilo Alonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damusix/microjs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/damusix/microjs-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.5.0",
+    "axios": "^0.18.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "dayjs": "^1.6.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "navigo": "^7.1.2",
+    "postcss-calc": "^6.0.1",
+    "postcss-color-function": "^4.0.1",
+    "postcss-css-variables": "^0.8.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-nested": "^3.0.0",
+    "riot": "^3.10.0",
+    "riot-compiler": "^3.5.1",
+    "riot-tag-loader": "^2.0.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "sugarss": "^1.0.1"
+  }
+}

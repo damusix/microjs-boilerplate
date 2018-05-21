@@ -1,0 +1,45 @@
+:root {
+
+    --navy: #001F3F;
+    --blue: #0074D9;
+    --aqua: #7FDBFF;
+    --teal: #39CCCC;
+    --olive: #3D9970;
+    --green: #2ECC40;
+    --lime: #01FF70;
+    --yellow: #FFDC00;
+    --orange: #FF851B;
+    --red: #FF4136;
+    --fuchsia: #F012BE;
+    --purple: #B10DC9;
+    --maroon: #85144B;
+    --white: #FFFFFF;
+    --silver: #DDDDDD;
+    --gray: #AAAAAA;
+    --black: #111111;
+
+    --primary: var(--blue);
+    --secondary: var(--gray);
+    --background: var(--black);
+
+    --size: 16px;
+
+    --text-xs: calc(var(--size) * 0.6);
+    --text-sm: calc(var(--size) * 0.8);
+    --text-md: calc(var(--size) * 1);
+    --text-lg: calc(var(--size) * 1.25);
+    --text-xl: calc(var(--size) * 1.5);
+    --text-xxl: calc(var(--size) * 1.75);
+    --text-xxxl: calc(var(--size) * 2);
+
+
+    --xs: calc(var(--size) * 0.6);
+    --sm: calc(var(--size) * 0.8);
+    --md: calc(var(--size) * 1);
+    --lg: calc(var(--size) * 1.25);
+    --xl: calc(var(--size) * 1.5);
+    --xxl: calc(var(--size) * 1.75);
+    --xxxl: calc(var(--size) * 2);
+}
+
+@import "navigation/style.css";
